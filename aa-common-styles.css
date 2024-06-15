@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: white;
+    color: rgb(33, 76, 231);
+}
+
+body{
+    background-color: black;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.violet{
+    color: blueviolet;
+}
+
+.lime{
+    color: limegreen;
+}
+
+.aquamarine{
+    color: aquamarine;
+}
+
+.orangered{
+    color: orangered;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.P{
+    font-size: 22px;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.align{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hr-red{
+    border-color: red;
+    border-width: 1px;
+}
+
+.hr-green{
+    border-color: green;
+    border-width: 1px;
+}
+
+.mid{
+    position: absolute;
+    margin: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.font-weight{
+    font-weight: 600;
+}
+
+.scroll{
+    overflow-y: scroll;
+    scrollbar-width: 0;
+}
+
+.datos--instruciones{
+    z-index: 11;
+    position: absolute;
+    bottom: 20vh;
+    right: 24vw;
+}

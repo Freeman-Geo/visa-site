@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/aa-common-styles.css">
+    <link rel="stylesheet" href="/aa-styles.css">
+    
+    <title>Cuestionario Datos</title>
+</head>
+<body>
+<img src="/assets/img-fondo/formulary.png" class="body-index">
+
+<div class="cuestionario--datos-container">
+    <div class="cuestionario-datos-cont cuestionario--datos-left-container">
+        <p class="datos-title datos-title-left just">
+            Cuestionario de Datos
+        </p>
+        <nav class="datos--cuest-left-container">
+            <div class="cod_cliente-container between">
+                <label for="datos--input-cod_cliente" class="datos--label-cod_cliente">Codigo CLiente</label>
+                <div class="datos--input datos--input-cod_cliente" id="datos--input-cod_cliente"></div>
+            </div>
+            <div class="today-container between">
+                <label for="datos--input-today" class="datos--label-today">Today</label>
+                <input type="date" class="datos--input datos--input-today" id="datos--input-today">
+            </div>
+            <div class="nombre-container between">
+                <label for="datos--input-nombre" class="datos--label-nombre">Nombre</label>
+                <input type="text" class="datos--input datos--input-nombre" id="datos--input-nombre">
+            </div>
+            <div class="apellido-container between">
+                <label for="datos--input-apellido" class="datos--label-apellido">Apellido</label>
+                <input type="text" class="datos--input datos--input-apellido" id="datos--input-apellido">
+            </div>
+            <div class="country-container between">
+                <label for="datos--input-country" class="datos--label-country">Pais Actual</label>
+                <input type="text" class="datos--input datos--input-country" id="datos--input-country">
+            </div>
+            <div class="city-container between">
+                <label for="datos--input-city" class="datos--label-city">Ciudad Actual</label>
+                <input type="text" class="datos--input datos--input-city" id="datos--input-city">
+            </div>
+            <div class="born-country-container between">
+                <label for="datos--input-born-country" class="datos--label-born-country">Pais Natal</label>
+                <input type="text" class="datos--input datos--input-born-country" id="datos--input-born-country">
+            </div>
+            <div class="born-city-container between">
+                <label for="datos--input-born-city" class="datos--label-born-city">Ciudad Natal</label>
+                <input type="text" class="datos--input datos--input-born-city" id="datos--input-born-city">
+            </div>
+            <div class="fecha-nacimiento-container between">
+                <label for="datos--input-fecha-nacimiento" class="datos--label-fecha-nacimiento">Fecha de Nacimiento</label>
+                <input type="fecha-nacimiento" class="datos--input datos--input-fecha-nacimiento" id="datos--input-fecha-nacimiento">
+            </div>
+            <div class="email-container between">
+                <label for="datos--input-email" class="datos--label-email">E-mail</label>
+                <input type="email" class="datos--input datos--input-email" id="datos--input-email">
+            </div>
+            <div class="telefono1-container between">
+                <label for="datos--input-telefono1" class="datos--label-telefono1">Telefono 1</label>
+                <input type="text" class="datos--input datos--input-telefono1" id="datos--input-telefono1">
+            </div>
+            <div class="telefono2-container between">
+                <label for="datos--input-telefono2" class="datos--label-telefono2">Telefono - Whatsapp</label>
+                <input type="text" class="datos--input datos--input-telefono2" id="datos--input-telefono2">
+            </div>
+            <div class="razon-container between">
+                <label for="datos--input-razon" class="datos--label-razon">Razon por la que <br>
+                quiere viajar</label>
+                <input type="text" class="datos--input datos--input-razon" id="datos--input-razon">
+            </div>
+            <div class="acusado-container between">
+                <label for="datos--input-acusado" class="datos--label-acusado">¿Ha sido condenado<br> en los EE.UU.?</label>
+                <input type="text" class="datos--input datos--input-acusado" id="datos--input-acusado">
+            </div>
+            <div class="entrada-container between">
+                <label for="datos--input-entrada" class="datos--label-entrada">¿Cuantas veces usted ha<br> entrado a los EE.UU.?</label>
+                <input type="text" class="datos--input datos--input-entrada" id="datos--input-entrada">
+            </div>
+            <div class="ilegal-container between">
+                <label for="datos--input-ilegal" class="datos--label-ilegal">¿Cuantas de ellas<br> ilegalmente?</label>
+                <input type="text" class="datos--input datos--input-ilegal" id="datos--input-ilegal">
+            </div>
+            <div class="mejor-dia-container between">
+                <label for="datos--input-mejor-dia" class="datos--label-mejor-dia">¿Cuál es el mejor día <br>para contactalo?</label>
+                <input type="text" class="datos--input datos--input-mejor-dia" id="datos--input-mejor-dia">
+            </div>
+            <div class="mejor-hora-container between">
+                <label for="datos--input-mejor-hora" class="datos--label-mejor-hora">¿Cuál es la mejor hora <br>para contactalo?</label>
+                <input type="text" class="datos--input datos--input-mejor-hora" id="datos--input-mejor-hora">
+            </div>
+            <input type="submit" class="datos-submit" id="datos-submit" value="De Click para enviar el Cuestionario">
+        </nav>
+    </div>
+
+    <div class="cuestionario-right-container">
+        <div class="cuestionario-datos-cont cuestionario--datos-right-1-container">
+            <p class="datos-title datos-title-right just">
+                Instrucciones de llenado
+            </p><br>
+            <p class="datos--cuest-right conv-right-1 just">
+                Responde completamente las preguntas, y cuando termines<br>
+                No olvides dar "Click" en el botón de hasta abajo del cuestionario para enviarlo<br><br>
+                Ya que hallas teminado y enviado el questionario<br><br>
+                Sólo da click en el botón de abajo "Click"
+            </p>
+            <a href="/final.html">
+                <button class="button1 datos--instruciones">Click</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+</img>
+    <script src="/aa-scripts.js"></script>
+</body>
+</html>
